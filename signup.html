@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Form</title>
+	<style>
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		.rect{
+			height: 250px;
+			width: 300px;
+			background-color: gray;
+			font: 20px;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	
+	<form action="/signup" method="post">
+		<h1>Signup Form</h1><br><br>
+		<div class="rect">
+			<br><br>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username"><br><br>
+			<label for="Email">Email:</label>
+			<input type="text" id="email" name="email"><br><br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br><br>
+	  
+		<input type="submit" value="Register">	
+		</div>
+	  </form>
+	  
+</body>
+</html>
